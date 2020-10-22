@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="stickynotes website">
+        <meta name="keywords" content="add-note">
+        <meta name="author" content="stickynotes team">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/StickNotise.css"/>
+        <title>sticky-note</title>
+    </head>
+    <body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100">
+        <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Features <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="index.html">Contact-Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a  class="btn myBtn">LogIn</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link"  id="btn-signUp" >SignUp</a>
+        </li>
+        <li id="logOut">
+            <a  class="btn">logOut</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /Navbar -->
+<section class="profileShow">
+  <section class="profileSection">
+      <div class="container">
+          <div class="row">
+               <div class=" col-md-3 ">
+                 <div  class="pfp">
+                   <img src="img/team-bw-1.jpg">
+                   <div ><button type="button" class=" btn btn-dark  d-flix algin-items-center w-100 justify-content-center ">Edit photo</button> </div>
+                 </div>
+               </div>
+  
+          
+          <div class=" col-md-9">
+            <div class="inf" >
+              <form class="fo">
+                <div>
+                  <label>Email:</label>
+                  <input class="itm" type="text">
+                </div>
+                <div>
+                   <label>Age:</label>
+                   <input class="itm" type="number">
+                 </div>
+                 <div>
+                     <label>Phone:</label>
+                     <input class="itm" type="number">
+                   </div>
+                   <div>
+                       <label>Note Count:</label>
+                       <input class="itm" type="text">
+                     </div>
+              </form>
+             </div>
+                  </div>
+              </div>
+          </div>
+       </section>
+          <header >
+              <section>
+          <div id="Profile" class=" container py-3">
+          <h1>add notice</h1>
+          <div class="form-group">    
+              <label>The Title :</label>
+              <input id="Title" class="form-control"/>
+          </div>        
+          <div class="form-group">    
+              <label>YourNotice :</label>
+             <textarea id="YourNotice" class="form-control"> </textarea>
+              
+          </div>  
+           <section id="options-container">
+          
+              <div id="options-box">
+              
+                  <h3>Colors :</h3>
+                  
+                      <ul class="list-unstyled">
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                  
+                      </ul>
+  
+              </div>
+          
+              <div class="clearfix"></div>
+          </section>
+      <button   id="addBtn" class="btn float-right btn-info">add Notice</button>
+        
+              
+              <div class="clearfix"></div>
+        
+     
+        
+              </div>
+                  <div class="container">
+          <button   id="addBtnShow" class="text-center justify-content-center btn float-right btn-dark w-100">add Notice</button>
+          <div class="section-tow">
+          <h3 class="justify-content-around text-center">YOUR NOTICE</h3>
+          <div class="container d-flex justify-content-around text-center">
+              
+              <div class="row d-flex justify-content-start" id="rowData">
+              
+              
+              </div>  
+          </div> 
+              </div>
+                      </div>
+                  </section>
+              </header>
+</section>
+
+
+
+<!-- footer -->
+<footer>
+    @CopyRight StickNotes_Team
+</footer>
+<!-- /footer -->
